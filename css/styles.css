@@ -86,7 +86,7 @@ header {
     padding: 100px 120px;
     justify-content: space-between;
     flex-wrap: wrap;
-    justify-items: center;
+    align-items: start;
 }
 .art_div1 {
     width: 700px;
