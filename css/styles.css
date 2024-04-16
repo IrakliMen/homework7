@@ -1,0 +1,126 @@
+.container {
+    width: min(100%, 1440px);
+    margin: auto;
+    /* padding-top: 136px; */
+}
+header {
+    max-width: inherit;
+    width: inherit;
+    background-color: #372D23;
+    display: flex;
+    padding: 32px 80px;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.menu {
+    display: flex;
+    column-gap: 48px;
+}
+.inactive{
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #FCC21B;
+}
+.active {
+    color: #ED6C30;
+}
+.logo_link {
+
+    display: inline-flex;
+}
+/* cover */
+.cover {
+    height: 640px;
+    position: relative;
+    margin-top: 136px;
+}
+.cover_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.cover_inside {
+    width: 762px;
+    position: absolute;
+    bottom: 50%;
+    transform: translate(-50%, 50%); 
+    left: 50%;
+    background-color: #FCC21B;
+    padding: 34px 40px;
+}
+.title1 {
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 32px;
+    text-shadow: 0 6px 4px #372D23;
+}
+.title1, .button1 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.button1 {
+    border: 3px solid #FFFFFF;
+    box-shadow: 0 2px 4px #000000D9;
+    font-size: 20px;
+    line-height: 28px;
+    background-color: #FCC21B;
+    padding: 12px 38px;
+}
+.button1:hover {
+    border-radius: 10px;
+}
+/* article */
+.article {
+    display: flex;
+    padding: 100px 120px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-items: center;
+}
+.art_div1 {
+    width: 700px;
+    height: 400px;
+}
+.art_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.art_div2 {
+    width: 400px;
+}
+.title2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #372D23;
+}
+.title2, .text, .button2 {
+    font-family: "Inter", sans-serif;
+}
+.text {
+    margin-block: 40px;
+    font-weight: 400;
+    color: #855C52;
+}
+.text, .button2  {
+    font-size: 20px;
+    line-height: 28px;
+}
+.button2 {
+    padding: 12px 40px;
+    background-color: #ED6C30;
+    color: #FFFFFF;
+}
+.button2:hover {
+    border: 3px solid #FFFFFF;
+    box-shadow: 0 2px 4px #000000D9;
+}
