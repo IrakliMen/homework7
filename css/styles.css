@@ -122,8 +122,10 @@ header {
     padding: 12px 40px;
     background-color: #ED6C30;
     color: #FFFFFF;
+    border: none;
 }
 .button2:hover {
+    border: 3px solid #FFFFFF;
     box-shadow: 0 0 5px #ED6C30,
     0 0 10px #ED6C30,
     0 0 15px #ED6C30, 
