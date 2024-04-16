@@ -75,7 +75,10 @@ header {
     padding: 12px 38px;
 }
 .button1:hover {
-    border-radius: 10px;
+    box-shadow: 0 0 5px,
+    0 0 10px,
+    0 0 15px, 
+    0 0 20px;
 }
 /* article */
 .article {
@@ -121,8 +124,10 @@ header {
     color: #FFFFFF;
 }
 .button2:hover {
-    border: 3px solid #FFFFFF;
-    box-shadow: 0 2px 4px #000000D9;
+    box-shadow: 0 0 5px #ED6C30,
+    0 0 10px #ED6C30,
+    0 0 15px #ED6C30, 
+    0 0 20px #ED6C30;
 }
 /* footer */
 footer {
